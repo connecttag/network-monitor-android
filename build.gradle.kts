@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "org.connecttag.libs.kotlin"
-version = "1.0.2"
+version = "1.0.4"
 
 android {
     namespace = "org.connecttag.services.networkmonitor.android"
@@ -38,7 +38,7 @@ publishing {
             from(components["release"])
             groupId = "org.connecttag.libs.kotlin"
             artifactId = "network-monitor-android"
-            version = "1.0.2"
+            version = "1.0.4"
 
             pom {
                 name.set("ConnectTag Network Monitor Android")
